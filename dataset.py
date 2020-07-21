@@ -49,8 +49,8 @@ transform = transforms.Compose([
 train_dataset = AMAP_IMG('./data',train=True,transform=transform)
 test_dataset = AMAP_IMG('./data',train=False,transform=transform)
 
-train_loader = DataLoader(dataset=train_dataset, batch_size=4, shuffle=False)
-test_loader = DataLoader(dataset=test_dataset, batch_size=4, shuffle=True)
+train_loader = DataLoader(dataset=train_dataset, batch_size=8, shuffle=True)
+test_loader = DataLoader(dataset=test_dataset, batch_size=8, shuffle=False)
 
 
 if __name__ =='__main__':

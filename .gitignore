@@ -2,3 +2,4 @@ data/
 .vscode/
 checkpoints/
 __pycache__
+!.gitkeep
